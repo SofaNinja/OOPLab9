@@ -1,2 +1,3 @@
-package data;public class Point {
-}
+package data;
+
+public record Point(double x, double y) { }

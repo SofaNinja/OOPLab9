@@ -4,17 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<BorderPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.HelloController">
-    <center>
-        <AnchorPane BorderPane.alignment="CENTER">
-            <Label fx:id="infoLabel" layoutX="280.0" layoutY="25.0" prefHeight="50.0" prefWidth="150.0"/>
-            <Label fx:id="stepsLabel" layoutX="250.0" layoutY="100.0" prefHeight="25.0" prefWidth="180.0"/>
-            <Label fx:id="maxLabel" layoutX="225.0" layoutY="120.0" prefHeight="25.0" prefWidth="190.0"/>
-            <Label fx:id="minLabel" layoutX="225.0" layoutY="140.0" prefHeight="25.0" prefWidth="190.0"/>
-            <Label fx:id="sumLabel" layoutX="260.0" layoutY="160.0" prefHeight="25.0" prefWidth="110.0"/>
-            <Label fx:id="averageLabel" layoutX="225.0" layoutY="180.0" prefHeight="25.0" prefWidth="200.0"/>
-        </AnchorPane>
-    </center>
+<BorderPane xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ooplab9.HelloController">
     <top>
         <VBox BorderPane.alignment="TOP_CENTER">
             <MenuBar>
@@ -30,6 +20,16 @@
             </MenuBar>
         </VBox>
     </top>
+    <center>
+        <AnchorPane BorderPane.alignment="CENTER">
+            <Label fx:id="infoLabel" layoutX="280.0" layoutY="25.0" prefHeight="50.0" prefWidth="150.0"/>
+            <Label fx:id="stepsLabel" layoutX="250.0" layoutY="100.0" prefHeight="25.0" prefWidth="180.0"/>
+            <Label fx:id="maxLabel" layoutX="225.0" layoutY="120.0" prefHeight="25.0" prefWidth="190.0"/>
+            <Label fx:id="minLabel" layoutX="225.0" layoutY="140.0" prefHeight="25.0" prefWidth="190.0"/>
+            <Label fx:id="sumLabel" layoutX="260.0" layoutY="160.0" prefHeight="25.0" prefWidth="110.0"/>
+            <Label fx:id="averageLabel" layoutX="225.0" layoutY="180.0" prefHeight="25.0" prefWidth="200.0"/>
+        </AnchorPane>
+    </center>
     <bottom>
         <ToolBar prefHeight="50.0">
             <TextField fx:id="startField" prefWidth="153.5" promptText="Start" layoutX="10.0">

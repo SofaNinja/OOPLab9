@@ -1,4 +1,4 @@
-package org.example;
+package org.example.ooplab9;
 
 import data.Point;
 import javafx.fxml.FXML;

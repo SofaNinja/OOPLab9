@@ -1,6 +1,7 @@
+package processor;
+
 import data.Point;
 import org.junit.jupiter.api.Test;
-import processor.Processor;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -10,14 +11,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class TabulationTest {
     Processor processor = new Processor();
-    double start = 1;
-    double finish = 2;
-    double step = 0.3;
+    double start = 3.0;
+    double finish = 4.0;
+    double step = 0.2;
     List<Point> testPoints = new ArrayList<>(Arrays.asList(
-            new Point(1,    0.95782),
-            new Point(1.3,  0.36172),
-            new Point(1.6,  0.41497),
-            new Point(1.9,  0.46239)
+            new Point(3.0, 0.98008),
+            new Point(3.2, 0.99659),
+            new Point(3.4, 0.93469),
+            new Point(3.6, -0.24617),
+            new Point(3.8, -0.35474),
+            new Point(4.0, -0.45564)
     ));
     public static double eps = 1e-5;
     @Test
